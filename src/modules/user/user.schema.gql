@@ -1,0 +1,12 @@
+type Query {
+	user: [User!]
+}
+
+
+type User {
+	id: ID
+	username: String
+	age: String
+}
+
+
